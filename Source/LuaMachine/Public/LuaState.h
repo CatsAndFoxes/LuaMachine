@@ -420,17 +420,17 @@ public:
 
 	void Log(const FString& Message)
 	{
-		UE_LOG(LogLuaMachine, Log, TEXT("%s"), *Message);
+		// UE_LOG(LogLuaMachine, Log, TEXT("%s"), *Message);
 	}
 
 	void LogWarning(const FString& Message)
 	{
-		UE_LOG(LogLuaMachine, Warning, TEXT("%s"), *Message);
+		// UE_LOG(LogLuaMachine, Warning, TEXT("%s"), *Message);
 	}
 
 	void LogError(const FString& Message)
 	{
-		UE_LOG(LogLuaMachine, Error, TEXT("%s"), *Message);
+		// UE_LOG(LogLuaMachine, Error, TEXT("%s"), *Message);
 	}
 
 	void SetUserDataMetaTable(FLuaValue MetaTable);
